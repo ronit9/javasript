@@ -223,6 +223,15 @@ const genderfind = () => {
   document.getElementById('data').innerHTML = tbl;
 }
 
+const reset = () => {
+  document.getElementById('city').value = "";
+  document.getElementById('minsalary').value = "";
+  document.getElementById('maxsalary').value = "";
+  document.getElementById('hobby').value = "";
+  document.getElementById('gender').value = "";
+  showdata();
+}
+
 
 
 
